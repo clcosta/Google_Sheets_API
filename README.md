@@ -22,7 +22,7 @@ Redes Sociais:
 	![step3](images/step3.png)
 ---
 
-## Creditos da ideia Inicial
+## Creditos da ideia
 	-Creditos para o Youtuber Tech With Tim
 
 * [Vídeo do Tim](https://www.youtube.com/watch?v=cnPlKLEGR7E)
