@@ -14,13 +14,9 @@ Redes Sociais:
 
     ![step1](images/step1.png)
 
-2. Se atente aos Paths de Arquivos e Nomes das planilhas.  
+2. Se atente ao nome de colunas, e as colunas que foram deletadas.
 
-    ![step2](images/step2.png)
-
-3. Se atente ao nome de colunas, e as colunas que foram deletadas.
-
-	![step3](images/step3.png)
+	![step2](images/step3.png)
 ---
 
 ## Creditos da ideia

@@ -1,7 +1,6 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-import pandas as pd 
-from pathlib import Path
+import pandas as pd
 import os
 from funcoes import *
 
@@ -9,7 +8,7 @@ from funcoes import *
 
 scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 
-caminho = r"C:\Users\Claudio\GitHub\Google_Sheets_API\creds.json" ##-- Diretorio onde se encontra a suas Credenciais para acessar a Planilha no Sheets
+caminho = os.getcwd() + "\\creds.json" ##-- Diretorio onde se encontra a suas Credenciais para acessar a Planilha no Sheets
 creds = ServiceAccountCredentials.from_json_keyfile_name(caminho, scope)
 client = gspread.authorize(creds)
 sheet = client.open('Vendas (respostas)') ##-- Nome da Planilha
@@ -96,21 +95,17 @@ for loja in dict_aux:
 
 
 ### ENCONTRAR O DESKTOP DO USUARIO ONDE FICARÁ A TABELA CONTROLE ###
-
-desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-path_desktop = Path(desktop)
-
 ### CRIAR A PLANILHA CONTROLE DE VENDAS NO DESKTOP ###
 
-nome_arquivo = Path(path_desktop/'Controle Vendas.xlsx')
+nome_arquivo = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop',"Controle Vendas.xlsx")
 while True:
-    if nome_arquivo.exists() == False:
+    if os.path.exists(nome_arquivo) == False:
         break
     else:
         os.remove(nome_arquivo)
 while True:
-    if nome_arquivo.exists() == False:
-        df.to_excel(Path(path_desktop/'Controle Vendas.xlsx'),sheet_name='Controle', index = False)
+    if os.path.exists(nome_arquivo) == False:
+        df.to_excel(nome_arquivo,sheet_name='Controle', index = False)
     else:
         break
 for nome in dict_aux:
