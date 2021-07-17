@@ -1,13 +1,26 @@
 # Bem vindo ao repositório de Integração com a API do Google Sheets!
-Automação que utiliza O **Google Sheets API** para Obter as informações de um planilha, a integração é feita através de um arquivo **Json** com as credenciais, trata todos os dados e possíveis erros de digitação, e depois cria **Um Arquivo em Excel na Área de Trabalho.**
+Automação que utiliza O **Google Sheets API** para Obter as informações de um planilha, a integração é feita através de um arquivo **Json** com as credenciais. Trata todos os dados e possíveis erros de digitação, já que planilha é de respostas de um formulário, e depois cria **Um Arquivo em Excel na Área de Trabalho.**
 
 Redes Sociais:
-* [Site](https://eloquent-mayer-345dc7.netlify.app/)
+* [Site](portfolio-claudio.herokuapp.com)
 * [Instagram](https://www.instagram.com/claudiogfez/)
 * [Linkedin](https://www.linkedin.com/in/clcostaf/)
 
-## How to use ( Como Utilizar )
-	-Para está está Integração funcionar será necessário fazer alguns passos muito Importantes!
+# Instalação
+
+1. Primeiramente você pode clonar este repositório.
+
+```
+$ git clone https://github.com/clcosta/Google_Sheets_API.git
+```
+
+2. Agora a instalação das bibliotecas
+
+```
+pip install -r requirements.txt
+```
+
+# Como utilizar
 
 1. Será necessário criar o seu próprio arquivo Json dentro da pasta onde o Script vai rodar.  
 	**Recomendo Pesquisar sobre o Google Cloud API's**  
@@ -15,15 +28,27 @@ Redes Sociais:
     ![step1](images/step1.png)
 
 2. Se atente aos Paths de Arquivos e Nomes das planilhas.  
+	__Cuidado caso tenha 2 planilhas com o mesmo nome tente renomear uma delas.__
 
     ![step2](images/step2.png)
 
-3. Se atente ao nome de colunas, e as colunas que foram deletadas.
+3. Se atente ao nome de colunas, e as colunas que foram deletadas.  
+	__Na sua planilha o nome das colunas serão diferentes porém a ideia é a mesma.__
 
 	![step3](images/step3.png)
+
+4. Com tudo já instalado e modificado é só executar o código!
+```
+python main.py
+```
 ---
 
 ## Creditos da ideia
-	-Creditos para o Youtuber Tech With Tim
+**Creditos para o Youtuber Tech With Tim**
 
 * [Vídeo do Tim](https://www.youtube.com/watch?v=cnPlKLEGR7E)
+
+
+# Author
+| [<img src="https://avatars.githubusercontent.com/u/83929403?v=4" width=115><br><sub>@clcostaf</sub>](https://github.com/clcostaf) |
+| :---: |
