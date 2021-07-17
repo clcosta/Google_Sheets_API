@@ -1,7 +1,7 @@
 # Bem vindo ao repositório de Integração com a API do Google Sheets!
 Automação que utiliza O **Google Sheets API** para Obter as informações de um planilha, a integração é feita através de um arquivo **Json** com as credenciais. Trata todos os dados e possíveis erros de digitação, já que planilha é de respostas de um formulário, e depois cria **Um Arquivo em Excel na Área de Trabalho.**
 
-Redes Sociais:
+## Redes Sociais:
 * [Site](https://portfolio-claudio.herokuapp.com)
 * [Instagram](https://www.instagram.com/claudiogfez/)
 * [Linkedin](https://www.linkedin.com/in/clcostaf/)
@@ -49,6 +49,6 @@ python main.py
 * [Vídeo do Tim](https://www.youtube.com/watch?v=cnPlKLEGR7E)
 
 
-# Author
+# Autor
 | [<img src="https://avatars.githubusercontent.com/u/83929403?v=4" width=115><br><sub>@clcostaf</sub>](https://github.com/clcostaf) |
 | :---: |
