@@ -43,8 +43,8 @@ python main.py
 ```
 ---
 
-## Creditos da ideia
-**Creditos para o Youtuber Tech With Tim**
+## Referência
+**Referência inicial: Youtuber Tech With Tim**
 
 * [Vídeo do Tim](https://www.youtube.com/watch?v=cnPlKLEGR7E)
 
