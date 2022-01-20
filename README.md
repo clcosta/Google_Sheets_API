@@ -2,7 +2,6 @@
 Automação que utiliza O **Google Sheets API** para Obter as informações de um planilha, a integração é feita através de um arquivo **Json** com as credenciais. Trata todos os dados e possíveis erros de digitação, já que planilha é de respostas de um formulário, e depois cria **Um Arquivo em Excel na Área de Trabalho.**
 
 ## Redes Sociais:
-* [Site](https://portfolio-claudio.herokuapp.com)
 * [Instagram](https://www.instagram.com/claudiogfez/)
 * [Linkedin](https://www.linkedin.com/in/clcostaf/)
 
